@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 const Hero = () => {
   return (
-    <section className="relative flex flex-col items-center justify-center h-screen bg-gray-900 text-white text-center px-6 overflow-hidden">
+    <section className="relative flex flex-col items-center justify-center min-h-screen pt-16 bg-gray-900 text-white text-center px-6 overflow-hidden">
       <Navbar />
 
       {/* Hero Content */}
