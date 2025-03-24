@@ -1,9 +1,15 @@
 const projects = [
   {
-    title: "Loop Moderation",
+    title: "Content Moderation",
     description:
-      "A fast and efficient content moderation platform built with Laravel, React.js, and Redis. Designed to handle high-load scenarios while ensuring accurate content review.",
-    tech: ["Laravel", "React.js", "Redis"],
+      "A fast and scalable platform for managing content submitted by multiple clients via API. Operators manually review the content, with AI assistance during high-traffic periods to improve efficiency.",
+    tech: ["Laravel", "MySQL", "Node.js", "React.js", "Material UI", "Redis"],
+  },
+  {
+    title: "HR Management System",
+    description:
+      "A comprehensive HR management system designed to streamline employee onboarding, attendance tracking, payroll processing, and employee record management. Includes email notifications for important HR updates and seamless handling of day-to-day HR operations.",
+    tech: ["Laravel", "MySQL", "React.js", "Redis", "Material UI"],
   },
   {
     title: "Lead Generation System",
@@ -22,13 +28,6 @@ const projects = [
     description:
       "A feature-rich frontend for a social media platform, built using React.js and MUI. Focused on UI responsiveness, accessibility, and seamless user experience.",
     tech: ["React.js", "MUI", "Node.js"],
-  },
-
-  {
-    title: "HR Management System",
-    description:
-      "A comprehensive HR management system to streamline employee onboarding, attendance, and payroll processing. Focused on automation and efficiency.",
-    tech: ["React.js", "Node.js", "MongoDB"],
   },
   {
     title: "Personal Portfolio",
@@ -53,7 +52,7 @@ const Projects = () => {
                 {project.tech.map((tech, i) => (
                   <span
                     key={i}
-                    className="inline-block bg-blue-500 text-white text-sm px-3 py-1 rounded-full mr-2"
+                    className="inline-block bg-blue-500 text-white text-sm px-3 py-1 rounded-full mr-2 mb-2"
                   >
                     {tech}
                   </span>
