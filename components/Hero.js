@@ -8,7 +8,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <h1 className="text-4xl sm:text-6xl font-bold">JAYDITCH BALANSI</h1>
-      <h2 className="text-2xl sm:text-4xl font-bold mt-6 px-6 hover:text-blue-600">Full Stack Developer</h2>
+      <h2 className="text-2xl sm:text-4xl font-bold mt-6 px-6 hover:text-blue-600">Programmer</h2>
       <a
         href="#contact"
         className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg text-lg font-semibold transition duration-300 flex items-center space-x-2"

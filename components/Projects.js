@@ -21,19 +21,7 @@ const projects = [
     title: "AI-powered Image Generator",
     description:
       "An AI-driven tool utilizing ReplicateAI for image generation and editing. Users can modify images dynamically with a brush tool and enhance their creative workflows.",
-    tech: ["React.js", "ReplicateAI", "Tailwind CSS"],
-  },
-  {
-    title: "Social Media Platform Frontend",
-    description:
-      "A feature-rich frontend for a social media platform, built using React.js and MUI. Focused on UI responsiveness, accessibility, and seamless user experience.",
-    tech: ["React.js", "MUI", "Node.js"],
-  },
-  {
-    title: "Personal Portfolio",
-    description:
-      "A modern and minimal portfolio website showcasing my work, skills, and experience. Built with Next.js and Tailwind CSS.",
-    tech: ["Next.js", "Tailwind CSS"],
+    tech: ["Typescript", "Replicate.ai", "Tailwind CSS"],
   },
 ];
 

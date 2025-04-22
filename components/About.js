@@ -22,6 +22,10 @@ const About = () => {
           I also have experience with Redis
           for caching and Node.js for backend services, enhancing performance
           and scalability in applications.
+
+        </p>
+        <p className="mt-4 text-white text-lg">
+          I am currently expanding my knowledge in AI, automation, and workflow tools like n8n — exploring how they can streamline tasks and supercharge productivity.
         </p>
 
       </div>

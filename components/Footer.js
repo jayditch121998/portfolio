@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -9,15 +9,15 @@ const Footer = () => {
 
         {/* Social Media Links */}
         <div className="flex space-x-4 mt-3">
-          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/jayditch121998" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-xl hover:text-blue-400 transition" />
           </a>
-          <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/jayditch-b-694a521b6" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-xl hover:text-blue-400 transition" />
           </a>
-          <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer">
             <FaTwitter className="text-xl hover:text-blue-400 transition" />
-          </a>
+          </a> */}
         </div>
 
         {/* Copyright */}
